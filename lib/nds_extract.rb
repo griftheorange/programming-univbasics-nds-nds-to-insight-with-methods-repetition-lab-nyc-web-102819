@@ -28,7 +28,7 @@ def list_of_directors(source)
   pp source
   direct_names = []
   source.length.times { |i|
-    direct_names.append(source[i][:names])
+    direct_names.append(source[i][:name])
   }
   direct_names
 end
